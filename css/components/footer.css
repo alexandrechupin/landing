@@ -1,0 +1,35 @@
+.footer{
+margin-top: 70px;
+background-color: black;
+color:white;
+text-align: center;
+height : 200px;
+padding: 20px
+}
+
+.keep-touch {
+display: inline-block;
+margin-top: 30px;
+}
+
+.container-footer{
+display: flex;
+justify-content:center;
+align-items: center;
+
+}
+
+.container-footer i{
+margin: 30px;
+border-radius: 50%;
+}
+
+.container-footer :hover{
+box-shadow: 5px 5px 5px grey;
+}
+
+.signature {
+font-size: 12px;
+margin-bottom: 20px;
+
+}

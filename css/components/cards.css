@@ -1,0 +1,40 @@
+.card-media{
+background-color:white;
+border:1px solid black;
+border-radius: 4px;
+height: 300px;
+width: 450px;
+overflow: hidden;
+margin: 25px;
+}
+
+.card-media:hover{
+box-shadow: 5px 5px 5px grey;
+}
+
+.card-media img {
+width: 100%;
+height: 175px;
+object-fit: cover;
+}
+
+.card-media-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 10px;
+height: 120px;
+}
+
+.card-media h2 {
+font-size: 20px;
+font-weight: bold;
+}
+
+.card-media p {
+font-size: 10px;
+font-weight: lighter;
+}
+
+
+
